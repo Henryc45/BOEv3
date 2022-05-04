@@ -1,0 +1,156 @@
+/* Desktop View */
+body{
+  background-color: #FFEEEE;
+  font-family: "Montserrat";
+}
+h3{
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 23px;
+}
+.logo{
+  border-radius: 75%;
+  height: 100px;
+}
+.row{
+  color: black;
+  text-align: center;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-button{
+  font-size: 20px;
+  font-family: "Montserrat-Light";
+  width: 150px;
+  border-radius: 0;
+}
+.searchbar
+{
+  margin-left: 35px;
+  background-color: #F7F5F2;
+  margin-top: 120px;
+  width: 370px;
+  height: 98px;
+}
+.dropdown-item{
+  background-color: #F7F5F2;
+  font-size: 19px;
+}
+.dropdown-menu{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  max-height: 150px;
+  overflow: auto;
+  width: 60%;
+}
+.searchbutton{
+  margin-bottom: 50px;
+}
+.basiclist{
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 25px;
+  border: 2px solid;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  max-height: 500px;
+  overflow: auto;
+  width: 370px;
+  background-color: #F7F5F2;
+}
+.basiclistitem{
+  text-align: left;
+  min-height: 150px;
+  border-bottom: 1px solid;
+}
+.basiclisticon{
+  margin-top: 25px;
+  font-size: 25px;
+  margin-left: 250px;
+}
+.indepthlist{
+  margin: 25px 25px 5px 75px;
+  border-radius: 25px;
+  border: 2px solid;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  max-height: 500px;
+  overflow: auto;
+  width: 900px;
+  background-color: #F7F5F2;
+}
+.indepthlistitem{
+  min-height: 300px;
+  border-bottom: 1px solid;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  max-height: 300px;
+  overflow: auto;
+}
+.navbar{
+  height: 110px;
+}
+.footersection{
+  height: 50px;
+}
+.footeritem{
+  font-size: 25px;
+}
+.footerlist{
+  margin: auto;
+}
+
+/* Tablet View */
+@media (max-width: 900px) {
+  .indepthlist{
+    width: 400px;
+  }
+  .basiclist{
+    width: 300px;
+  }
+  .logo{
+    height: 75px;
+  }
+  #navbarNav{
+    margin-left: 685px;
+  }
+  .nav-button{
+    font-size: 17px;
+  }
+  .searchbar{
+    width: 350px;
+  }
+
+/* Mobile View */
+}
+@media (max-width: 700px) {
+  .indepthlist{
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 215px;
+  }
+  .basiclist{
+    width: 170px;
+    margin-top: 25px;
+  }
+  .logo{
+    height: 75px;
+  }
+  #navbarNav{
+    margin-left: 325px;
+  }
+  .nav-button{
+    font-size: 15px;
+  }
+  .searchbar{
+    width: 170px;
+    height: 200px;
+  }
+  #dropdownMenuButton1{
+    width: 100px;
+  }
+  .basiclisticon{
+    margin-left: 100px;
+  }
+}
